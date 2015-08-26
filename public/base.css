@@ -4,13 +4,6 @@
   padding: 10px;
   width: 100%;
   height: 12.5em;
-  color: #fdfdfd; }
-
-.box-blue {
-  background-color: #2C4770;
-  padding: 10px;
-  width: 100%;
-  height: 12.5em;
   color: #fdfdfd;
   transition: all 0.3s ease 0s;
   transition-duration: 0.5s;
@@ -20,12 +13,30 @@
   background-color: transparent;
   color: #7689A9; }
 
+.fa.large {
+  font-size: 6em; }
+
+.fa.medium {
+  font-size: 4em; }
+
+.fa.small {
+  font-size: 2em; }
+
+.fa.tiny {
+  font-size: 1em; }
+
 /* Type and Fonts */
 @font-face {
   font-family: 'Mohave';
   src: url("../styles/fonts/Mohave.otf"); }
 html {
   font-size: 1.313em; }
+
+.white {
+  color: #fdfdfd; }
+
+.centered {
+  text-align: center; }
 
 p {
   margin-bottom: 1.3em; }

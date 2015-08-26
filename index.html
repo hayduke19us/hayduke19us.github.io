@@ -3,6 +3,9 @@
 <head>
   <link rel='stylesheet' href='public/base.css' type='text/css'>
   <link rel='stylesheet' href='public/base.css' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 </head>
 <html>
   <body>
@@ -20,44 +23,79 @@
     <div class='slide'>
       <div class='row'>
         <div class='col-1-1'>
-          <h4 class='subheader'>About me</h4>
+          <h4 class='subheader' id='info-subheader'>About me</h4>
         </div>
       </div>
 
       <div class='row'>
         <div class='col-1-4'>
-          <a href='url'><div class='box-blue'>
-            Code
-          </div></a>
+          <div id='scene' class='white centered'>
+            <a href='#' class='about-box' data-type='code'>
+            <div class='box-blue'>
+              <div class='layer' data-depth="0.50">
+                <i class="fa fa-code large"></i>
+              </div>
+            </div>
+            </a>
+          </div>
         </div>
 
         <div class='col-1-4'>
-          <a href='#'>
-          <div class='box-blue'>
-            Curriculum vitae
+          <div id='scene2' class='white centered'>
+            <a href='#' class='about-box' data-type='Curriculum Vitae'>
+            <div class='box-blue'>
+              <div class='layer' data-depth="0.50">
+                <i class="fa fa-file-text-o large"></i>
+              </div>
+            </div>
+            </a>
           </div>
-          </a>
         </div>
 
         <div class='col-1-4'>
-          <a href='#'>
-          <div class='box-blue'>
-            Code of Conduct
+          <div id='scene3' class='white centered'>
+            <a href='#' class='about-box' data-type='Conduct'>
+            <div class='box-blue'>
+              <div class='layer' data-depth="0.50">
+                <i class="fa fa-life-ring large"></i>
+              </div>
+            </div>
+            </a>
           </div>
-          </a>
         </div>
 
         <div class='col-1-4'>
-          <a href='#'>
-          <div class='box-blue'>
-            Contact
+          <div id='scene4' class='white centered'>
+            <a href='#' class='about-box' data-type='Hobbies'>
+            <div class='box-blue'>
+              <div class='layer' data-depth="0.50">
+                <i class="fa fa-user large"></i>
+              </div>
+            </div>
+            </a>
           </div>
-          </a>
         </div>
-
 
       </div>
     </div>
+    <script src='scripts/parallax.js'></script>
+    <script src='scripts/index.js'></script>
+    <script>
+      var scene = document.getElementById('scene');
+      var parallax = new Parallax(scene);
+
+      var scene2 = document.getElementById('scene2');
+      var parallax2 = new Parallax(scene2);
+
+      var scene3 = document.getElementById('scene3');
+      var parallax3 = new Parallax(scene3);
+
+      var scene4 = document.getElementById('scene4');
+      var parallax4 = new Parallax(scene4);
+
+
+
+    </script>
 
   </body>
 </html>

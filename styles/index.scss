@@ -2,6 +2,7 @@
 
 @import 'colors';
 @import 'boxes';
+@import '_font_alterations';
 
 /* Type and Fonts */
 
@@ -11,6 +12,10 @@
 }
 
 html {font-size: 1.313em;}
+
+.white {color: #fdfdfd;}
+
+.centered {text-align: center}
 
 p {margin-bottom: 1.3em;}
 
