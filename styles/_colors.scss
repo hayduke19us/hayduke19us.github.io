@@ -1,0 +1,26 @@
+// As hex codes */
+
+
+$color-primary-0: #2C4770;  // Main Primary color */
+$color-primary-1: #7689A9;
+$color-primary-2: #4D658D;
+$color-primary-3: #152D54;
+$color-primary-4: #051938;
+
+
+
+// As RGBa codes */
+
+$rgba-primary-0: rgba( 44, 71,112,1); // Main Primary color */
+$rgba-primary-1: rgba(118,137,169,1);
+$rgba-primary-2: rgba( 77,101,141,1);
+$rgba-primary-3: rgba( 21, 45, 84,1);
+$rgba-primary-4: rgba(  5, 25, 56,1);
+
+.box-blue {
+  background-color: $color-primary-0;
+  padding: 10px;
+  width: 100%;
+  height: 12.5em;
+  color: #fdfdfd;
+}

@@ -1,10 +1,24 @@
 /* Libraries */
 .box-blue {
-  color: #faebd7;
+  background-color: #2C4770;
   padding: 10px;
   width: 100%;
   height: 12.5em;
-  background-color: blue; }
+  color: #fdfdfd; }
+
+.box-blue {
+  background-color: #2C4770;
+  padding: 10px;
+  width: 100%;
+  height: 12.5em;
+  color: #fdfdfd;
+  transition: all 0.3s ease 0s;
+  transition-duration: 0.5s;
+  text-align: center; }
+
+.box-blue:hover {
+  background-color: transparent;
+  color: #7689A9; }
 
 /* Type and Fonts */
 @font-face {
@@ -15,6 +29,9 @@ html {
 
 p {
   margin-bottom: 1.3em; }
+
+a {
+  text-decoration: none; }
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
@@ -285,6 +302,13 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  position: relative;
+  width: 100vw; }
+
+.half-slide {
+  margin: 0;
+  padding: 0;
+  min-height: 30vh;
   position: relative;
   width: 100vw; }
 

@@ -1,7 +1,7 @@
 /* Libraries */
 
-@import 'boxes';
 @import 'colors';
+@import 'boxes';
 
 /* Type and Fonts */
 
@@ -13,6 +13,8 @@
 html {font-size: 1.313em;}
 
 p {margin-bottom: 1.3em;}
+
+a {text-decoration: none;}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
@@ -341,6 +343,14 @@ body { font-weight: 400;
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.half-slide {
+  margin: 0;
+  padding: 0;
+  min-height: 30vh;
   position: relative;
   width: 100vw;
 }
