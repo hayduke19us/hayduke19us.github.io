@@ -23,14 +23,14 @@ h1, h2, h3, h4 {
 
 h1 {
   margin-top: 0;
-  font-size: 5.063em;
+  font-size: 8.6016em;
 }
 
-h2 {font-size: 3.375em;}
+h2 {font-size: 5.376em;}
 
-h3 {font-size: 2.25em;}
+h3 {font-size: 3.36em;}
 
-h4 {font-size: 1.5em;}
+h4 {font-size: 2.1em;}
 
 small, .font_small {font-size: 0.667em;}
 
@@ -52,8 +52,8 @@ small, .font_small {font-size: 0.667em;}
 }
 
 body { font-weight: 400;
-       font-size: 21px;
-       line-height: 1.38096em;
+       font-size: 1.3125em;
+       line-height: 2.1236775em;
        font-family: "Nitti iA","Helvetica Neue", Helvetica, Arial, sans-serif;
        background-color: #fdfdfd;
        color: #222;
@@ -334,3 +334,14 @@ body { font-weight: 400;
     height: 0;
   }
 }
+
+/* Slides */
+
+.slide {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
